@@ -1,0 +1,21 @@
+{
+    "name": "posetrov/packagist-test",
+    "description": "Test publishing on packagist",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1"
+    },
+    "authors": [
+        {
+            "name": "pavel",
+            "email": "pavel.osetrov1993@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "posetrov\\packagist_test\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
